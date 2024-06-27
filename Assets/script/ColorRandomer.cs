@@ -1,7 +1,7 @@
 using UnityEngine;
 
 [RequireComponent(typeof(Renderer))]
-public class ColorRandomer : MonoBehaviour  //цвет сука
+public class ColorRandomer : MonoBehaviour  //цвета
 {
     private Renderer _renderer;
 

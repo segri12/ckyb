@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class InputHandler : MonoBehaviour//Чтение  мышки или вода  
+public class InputHandler : MonoBehaviour//Чтение  
 {
     [SerializeField] private ExplosiveCube _explosiveCube;
     [SerializeField] private Explosion _explosion;

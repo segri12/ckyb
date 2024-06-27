@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Explosion : MonoBehaviour //писюны по стенам 
+public class Explosion : MonoBehaviour //взрыв
 {
     [SerializeField] private float _explodeRadius = 10f;
     [SerializeField] private float _explodeForce = 100;

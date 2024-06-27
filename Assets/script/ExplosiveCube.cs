@@ -1,4 +1,4 @@
-using UnityEngine;
+using UnityEngine;  
 
 [RequireComponent(typeof(Rigidbody))] // Û· 
 public class ExplosiveCube : MonoBehaviour
@@ -7,7 +7,7 @@ public class ExplosiveCube : MonoBehaviour
 
     private void Awake()
     {
-        _rigidbody = GetComponent<Rigidbody>();
+        TryGetComponent(out _rigidbody);
     }
 
     public Rigidbody GetRigidbody()
